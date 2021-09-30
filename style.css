@@ -1,0 +1,66 @@
+body {
+  background-image: url("background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: auto;
+  width: 900px;
+  height: 700px;
+  background: rgba(56, 56, 56, 0.5);
+  padding: 20px;
+  border-radius: 5%;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.nav {
+  background-color: #00FF00;
+  padding: 15px;
+  text-align: center;
+}
+
+main > div {
+  color: white;
+}
+
+h1 {
+  color: #00FF00;
+  text-align: center;
+}
+
+button {
+  font-size: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+span > strong {
+  font-size: 22px;
+}
+
+#row1 {
+  border: 10px solid orange;
+  border-radius: 5px;
+  margin-right: 75%;
+}
+
+#row2 {
+  border: 10px solid green;
+  border-radius: 5px;
+  margin-right: 50%;
+}
+
+#row3 {
+  border: 10px solid red;
+  border-radius: 5px;
+  margin-right: 90%;
+}
